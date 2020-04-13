@@ -5,10 +5,16 @@
     "Parent": "Parent1",
     "Id": "0"
   },
-         {
-          
-          "Name": "Menu Name2",
-            "Link": "www.google.co.in",
-            "Parent":"Parent1",
-            "Id":"0"
-        }]
+ {
+    "Name": "Store",
+	"Link":"https://localhost:5100/swagger/index.html",
+	"Parent":"Parent1",
+	"Id":"0"
+},
+{
+    "Name": "EDQ",
+	"Link":"https://localhost:5100/swagger/index.html",
+	"Parent":"Parent1",
+	"Id":"0"
+}
+]
