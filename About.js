@@ -1,19 +1,32 @@
+// import React from 'react';
+// import styled from 'styled-components';
+// import Iframe from  'react-iframe';
+// const GridWrapper = styled.div`
+//   display: absolute;
+//    margin-top: 0.5em;
+//   margin-left: 1em;
+//  `;
+// export const About = (props) => (
+   
+//     <GridWrapper>
+//       Test
+//       {global.DocUrl}
+//          <Iframe url={global.DocUrl} width="100%" height="100%" id="myId" display="initial" position="relative" frameBorder="0" />
+//     </GridWrapper>
+// )
+
 import React from 'react';
 import styled from 'styled-components';
+import Iframe from  'react-iframe';
 const GridWrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-  margin-top: 1em;
-  margin-left: 6em;
-  margin-right: 6em;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(25px, auto);
-`; 
-export const About = () => (
-  <GridWrapper>
-     <h2>About Page</h2>
-    <p>State at ceiling lay on arms while you're using the keyboard so this human feeds me.</p>
-    <p>I am a kitty cat, sup, feed me, no cares in the world</p>
-    <p>Meow meow, I tell my human purr for no reason but to chase after</p>
-  </GridWrapper>
+  display: absolute;
+   margin-top: 0.5em;
+  margin-left: 1em;
+ `;
+export const About = (props) => (
+   
+    <GridWrapper>
+         This is Dashboard
+
+    </GridWrapper>
 )

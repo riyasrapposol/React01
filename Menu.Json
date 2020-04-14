@@ -1,20 +1,32 @@
 [
-  {
-    "Name": "KBV",
-    "Link": "https://localhost:5100/swagger/index.html",
-    "Parent": "Parent1",
-    "Id": "0"
-  },
- {
-    "Name": "Store",
-	"Link":"https://localhost:5100/swagger/index.html",
-	"Parent":"Parent1",
-	"Id":"0"
-},
-{
-    "Name": "EDQ",
-	"Link":"https://localhost:5100/swagger/index.html",
-	"Parent":"Parent1",
-	"Id":"0"
-}
+    {
+      "Name": "KBV",
+      "Link": "https://localhost:5100/swagger/index.html",
+      "Parent": "",
+      "Id": "0"
+    },
+    {
+        "Name": "Store",
+        "Link":"https://localhost:5100/swagger/index.html",
+        "Parent":"",
+        "Id":"0"
+    },
+    {
+        "Name": "EDQ",
+        "Link":"https://localhost:5100/swagger/index.html",
+        "Parent":"",
+        "Id":"0"
+    },
+    {
+        "Name": "Hunter",
+        "Link":"https://localhost:5100/swagger/index.html",
+        "Parent":"",
+        "Id":"1"
+    },
+    {
+        "Name": "FraudNet",
+        "Link":"https://localhost:5100/swagger/index.html",
+        "Parent":"",
+        "Id":"1"
+    }
 ]
